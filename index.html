@@ -7,6 +7,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Hubballi&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet"> 
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preload" href="css/estilo.css" as="style">
@@ -16,8 +17,12 @@
 </head>
 <body>
     <header class="header">
+        <div class="titulo__central">
+        <h2>Conectados estamos mas cerca </h2>
+        <p>Conectate mejor con <span class="text__logo">Diggo</span></p>
+    </div>
         <div class="header__logo">
-            <img  id="home" src="img/logo2.png" alt="logo diggo" title="logo diggo">
+            <img  id="home" src="img/logo22.png" alt="logo diggo" title="logo diggo">
         </div>
         <div class="navegador">
             <nav class="navegador__principal">
@@ -35,103 +40,128 @@
     
     </header>
     <main class="contenedor"> 
-        <section class="first__section">
-             <div data-aos="fade-left" data-aos-duration="1000" class="first__section__img">
-                 <img src="img/first__section.png" alt="img background" title="img background">
-             </div>
-             <div data-aos="fade-right" data-aos-duration="1000"  class="first__section--info">
-                 <p>Bienvenidos a <span class="text__logo">DIGGO</span> compañia de telecomunicaciones y servicios de internet inalámbrico. Traemos lo último en tecnología y servicios.</p>
-             </div>
+
+        <!-- ANCLAS UBICACION DE PAGINAS-->
+        <div class="anclas">
+            <a href="#">Home > </a>
+        </div>
+       
+       
+        <!-- SECCION DE TELEFONOS MOVILES -->
+       <section id="equipos" class="four__section">
+            <div class="four__section--title">
+                <h2>Conectate con los últimos moviles del mercado, acercate a la nueva tecnología 5G.</h2>
+            </div>
+
+            <div class="box__productos__promo">
+            <div class="box__promos">
+                <h2 class="box__promo--title">Motorola E6I</h2>
+                <img class="box__promo--img" src="./img/motoe61.jpg" alt="motorola6" title="motorola6">
+                <p class="box__promo--informacion">Pantalla max vision de 6.1" con tecnologia IPS. Almacenamiento 32 Gb / RAM 2 Gb.</p>
+                <h3 class="box__promo--price"><span class="signo__price">$</span>25.000</h3>
+                <button class="btn__comprar">Agregar<ion-icon name="cart-outline"></ion-icon></button>
+            </div>
+            <div class="box__promos">
+                <h2 class="box__promo--title">Samsung G A22</h2>
+                <img class="box__promo--img" src="./img/Galaxy-A22.jpeg" alt="motorola6" title="motorola6">
+                <p class="box__promo--informacion">Pantalla 6,6 pulgadas TFT con resolución FullHD+ </p>
+                <h3 class="box__promo--price"> <span class="signo__price">$</span>125.000</h3>
+                <button class="btn__comprar">Agregar<ion-icon name="cart-outline"></ion-icon></button>
+            </div>
+            <div class="box__promos promo__5g">
+                <h2 class="box__promo--title">Motorola G71</h2>
+                <img class="box__promo--img" src="./img/motorolag71.png" alt="motorola6" title="motorola6">
+                <p class="box__promo--informacion">Celular Motorola G71 5G 128 GB Verde Jade.</p>
+                <h3 class="box__promo--price"><span class="signo__price">$</span>85.000</h3>
+                <button class="btn__comprar">Agregar<ion-icon name="cart-outline"></ion-icon></button>
+            </div>
+            <div class="box__promos promo__5g">
+                <h2 class="box__promo--title">Motorola G200</h2>
+                <img class="box__promo--img" src="./img/motog200.jpeg" alt="motorola6" title="motorola6">
+                <p class="box__promo--informacion">Celular Motorola G200 5G 128 GB Morado + Dongle HDMI.</p>
+                <h3 class="box__promo--price"><span class="signo__price">$</span>115.000</h3>
+                <button class="btn__comprar">Agregar<ion-icon name="cart-outline"></ion-icon></button>
+            </div>
+            </div>
         </section>
-        <section data-aos="flip-up" data-aos-duration="1000" class="second__section">
-            <img src="img/backgroundfirst.png" alt="img second" title="img second">
-        </section>
+
+        <!-- SECCION PLANES TELEFONICOS -->
         <section class="tree__section">
             <div class="tree__section--title">
                 <h2 id="planes">Elegi el mejor plan que se adapte a vos !!!</h2>
             </div>
             <div class="contenido__promos">
-            <div data-aos="flip-right" data-aos-duration="1000" class="box__promo promo__uno">
+            <div  class="box__promo ">
+                <h3 class="box__promo--titulo">10% Off<ion-icon name="bar-chart-outline"></ion-icon></h3>
+                <div class="iconos__promos">                
+                <p>Plan Inicial<ion-icon class="promo__icon__initial" name="bookmark-outline"></ion-icon></p>
+                </div>
                 <h2>$ 499<span class="centavos">99</span></h2>
+                <h4>$ 549.99</h4>
                 <ol class="lista__promos">
                     <li>2Gb para navegar.</li>
                     <li>10% descuento en llamadas locales.</li>
                     <li>Youtube - Spotify - Netflix Sin costo!.</li>
-                    <li>Desuento de 20% en compra de equipos nuevos.</li>
+                    <li>Descuento de 20% en compra de equipos nuevos.</li>
                 </ol>
                 <button class="btn__promo">Contratar</button>
             </div>
             
-            <div data-aos="flip-right" data-aos-duration="2000" class="box__promo promo__dos">
+            <div  class="box__promo ">
+                <h3 class="box__promo--titulo">20% Off<ion-icon name="bar-chart-outline"></ion-icon></h3>
+                <div class="iconos__promos">
+                 <p>Plan Medium<ion-icon name="ribbon-outline"></ion-icon></p>
+                </div>
                 <h2>$ 699<span class="centavos">99</span></h2>
+                <h4>$839.99</h4>
                 <ol class="lista__promos">
                     <li>6Gb para navegar.</li>
                     <li>20% descuento en llamadas locales.</li>
                     <li>Youtube - Spotify - Netflix Sin costo!.</li>
-                    <li>Desuento de 40% en compra de equipos nuevos.</li>
+                    <li>Descuento de 40% en compra de equipos nuevos.</li>
                 </ol>
                 <button class="btn__promo">Contratar</button>
             </div>
-            <div data-aos="flip-right" data-aos-duration="3000" class="box__promo promo__tres">
+            <div  class="box__promo ">
+                <h3 class="box__promo--titulo">50% Off<ion-icon name="bar-chart-outline"></ion-icon></h3>
+                <div class="iconos__promos">
+                <p>Plan Full<ion-icon name="rocket-outline"></ion-icon></p>
+                </div>
                 <h2>$ 1099<span class="centavos">99</span></h2>
+                <h4>$1649.99</h4>
                 <ol class="lista__promos">
                     <li>8Gb para navegar.</li>
                     <li>50% descuento en llamadas locales.</li>
                     <li>Youtube - Spotify - Netflix Sin costo!.</li>
-                    <li>Desuento de 40% en compra de equipos nuevos.</li>
+                    <li>Descuento de 40% en compra de equipos nuevos.</li>
                 </ol>
                 <button class="btn__promo">Contratar</button>
             </div>
             </div>
         </section>
-        <!--SECTION FOUR EQUIPOS-->
-            <section id="equipos" class="four__section">
-                <div class="four__section--title">
-                    <h2>Equipos moviles de ultima generación para que estes comunicado en todo momento!</h2>
-                </div>
-
-                <div class="box__productos__promo">
-                <div class="box__promos" data-aos="flip-right" data-aos-duration="2000">
-                    <h2 class="box__promo--title">Motorola E6I</h2>
-                    <img class="box__promo--img" src="./img/motoe61.jpg" alt="motorola6" title="motorola6">
-                    <p class="box__promo--informacion">Pantalla max vision de 6.1" con tecnologia IPS. Almacenamiento 32 Gb / RAM 2 Gb.</p>
-                    <h3 class="box__promo--price">$25.000</h3>
-                    <button class="btn__comprar">Agregar</button>
-                </div>
-                <div class="box__promos" data-aos="flip-right" data-aos-duration="2000">
-                    <h2 class="box__promo--title">Samsung G A22</h2>
-                    <img class="box__promo--img" src="./img/Galaxy-A22.jpeg" alt="motorola6" title="motorola6">
-                    <p class="box__promo--informacion">Pantalla 6,6 pulgadas TFT con resolución FullHD+ en el caso del 5G y una pantalla de 6,4 pulgadas con resolución HD</p>
-                    <h3 class="box__promo--price">$125.000</h3>
-                    <button class="btn__comprar">Agregar</button>
-                </div>
-                <div class="box__promos" data-aos="flip-right" data-aos-duration="2000">
-                    <h2 class="box__promo--title">Motorola G31</h2>
-                    <img class="box__promo--img" src="./img/motog31.jpg" alt="motorola6" title="motorola6">
-                    <p class="box__promo--informacion">La pantalla de este Moto G31 tiene una diagonal de 6,4 pulgadas, un tamaño bastante común. Su particularidad es que es de tecnología OLED.</p>
-                    <h3 class="box__promo--price">$85.000</h3>
-                    <button class="btn__comprar">Agregar</button>
-                </div>
-                <div class="box__promos" data-aos="flip-right" data-aos-duration="2000">
-                    <h2 class="box__promo--title">Motorola Power G9</h2>
-                    <img class="box__promo--img" src="./img/motog9.jpg" alt="motorola6" title="motorola6">
-                    <p class="box__promo--informacion">Pantalla resolución HD+ y 6,8 pulgadas. Qualcomm Snapdragon RAM 4 GB Rom 128 GB.</p>
-                    <h3 class="box__promo--price">$115.000</h3>
-                    <button class="btn__comprar">Agregar</button>
-                </div>
-                </div>
-                
 
 
 
+     <!-- PRESENTACION DE EQUIPOS -->
 
-            </section>
-        
+        <section  class="second__section">
+            <div class="second___section--info"><h2>En <span class="text__logo">Diggo </span>estamos comprometidos con brindar excelencia en los productos, no solamente contamos con un producto de calidad sino que ofrecemos un producto duradero y a la hora de ser utillizado, le permita sentir toda la seguridad que necesita.</h2></div>
+            <div class="second__section--img">
+            <img src="img/backgroundfirst.png" alt="img second" title="img second">
+        </div>
+        </section>
     </main>
+
+    <!-- FOOTER -->
     <footer class="footer">
         <h3>Derechos reservados - Diggo copyright &copy;</h3>
         <a class="footer__inicio" href="#home">Home</a>
     </footer>
+
+
+    <!-- SCRIPT -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
   AOS.init();
