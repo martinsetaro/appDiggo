@@ -18,4 +18,4 @@ Finaliza con un footer.
 ## La Navbar
 
 La barra de navegación contiene los enlaces Home, que regresa a la página principal, otro enlace de planes y equipos.
-El enlace de consultas se direcciona a otra página html donde podran encontras un formulario de contacto.
+El enlace de consultas se direcciona a otra página html donde podran encontrar un formulario de contacto.
