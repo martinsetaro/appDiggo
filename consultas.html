@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Hubballi&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet"> 
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/estilo.css" as="style">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/icon.ico">
+    <title>Diggo Mobile | Ahora sos Diggo!</title>
+</head>
+<body>
+    <header class="header__consultas">
+        <div class="titulo__central__contacto">
+        <h2> <span class="text__logo__contacto">C</span>ontacto</h2>
+        
+    </div>
+        <div class="header__logo">
+            <img  id="home" src="img/logo22.png" alt="logo diggo" title="logo diggo">
+        </div>
+        <div class="navegador">
+            <nav class="navegador__principal">
+                <a class="enlaces__nav enlaces__nav--activo" href="index.html">Home<a> 
+                <a class="enlaces__nav" href="#planes">Planes</a>
+                <a class="enlaces__nav" href="#equipos">Equipos</a>
+                <a class="enlaces__nav" href="consultas.html">Consultas</a>
+            </nav>
+        </div> 
+        <div class="header__buscador">
+            <input type="text" placeholder="Busqueda">
+            <button class="btn__search">Buscar</button>
+        </div>
+    
+    
+    </header>
+    <main class="contenedor">
+        <form class="formulario">
+            
+            <fieldset class="componentes__formulario">
+                <h2>Queremos conocerte, saber tus dudas y sugerencias. Envianos tus comentarios.</h2>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+                <label for="nombre">Mail</label>
+                <input type="email" name="nombre" placeholder="Ingresa tu nombre" required>
+                <label for="nombre">De donde eres</label>
+                <select name="" id="">
+                    <option value="">Argentina</option>
+                    <option value="">Colombia</option>
+                    <option value="">Chile</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Brasil</option>
+                    <option value="">Bolivia</option>
+                </select>
+                <label for="nombre">Envianos tu comentario</label>
+                <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <input class="btn__form" type="submit" value="Enviar">
+                <input class="btn__form" type="reset" value="Limpiar Formuario">
+            </fieldset>
+        </form> 
+
+      
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer__consulta">
+        <h3>Derechos reservados - Diggo copyright &copy;</h3>
+        <a class="footer__inicio" href="#home">Home</a>
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>
